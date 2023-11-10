@@ -1,0 +1,139 @@
+
+
+.menu-container
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    background-color: rgb(212, 212, 212, 0.2)
+}
+
+.sidebar
+{
+    width: 300px;
+    height: 520px;
+    padding: 20px;
+    border:1px solid red;
+    background-color: white;
+    margin-right: 100px;
+    border-radius: 70px;
+}
+.menu
+{
+    width: 950px;
+    height: 700px;
+    border: 1px solid yellow;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    background-color: white;
+    box-sizing: border-box;
+    
+    
+}
+
+.menu-item
+{
+    margin: 10px;
+    width: 300px;
+    background-color: white;
+    border: 1px solid goldenrod;
+    position: relative;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.menu-item img
+{
+    height: 160px;
+    width: 300px;
+}
+.menu-item-title
+{
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.menu-item-price
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 15px;
+    color: gray;
+    font-weight: 500;
+}
+.menu-item-address
+{
+    color: gray;
+    font-weight: 700;
+}
+
+.menu-item-rating
+{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+    background-color: rgb(42, 209, 42);
+    width: 40px;
+    height: 40px;
+    z-index: 4;
+    text-align: center;
+    color: white;
+    font-weight: 700;
+    border-radius: 10px;
+}
+
+.select-menu
+{
+    position: absolute;
+    top:30px;
+    right: 20px;
+}
+
+.select-menu2
+{
+    position: absolute;
+    top: 30px;
+    left: 20px;
+}
+
+.select-menu span
+{
+    font-size: 25px;
+}
+.select-menu select
+{
+    width:120px;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.select-menu2 select
+{
+    width:120px;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.sidebar label
+{
+    font-size: 20px;
+    
+}
+
+
+.sidebar p
+{
+    font-size: 27px;
+    letter-spacing: 1px;
+}
+
+.select-menu2 
+{
+    font-size: 20px;
+}
